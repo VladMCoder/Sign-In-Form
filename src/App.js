@@ -20,7 +20,7 @@ export const App = () => {
     }
 
     if (values.password) {
-      errors.email = "Required";
+      errors.password = "Required";
     } else if (
       !/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/.test(values.password)
     ) {
